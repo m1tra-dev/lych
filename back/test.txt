@@ -1,0 +1,15 @@
+http://localhost:4200/api/auth/register {"email":"pplaaootaoas@gmail.com,"password":"asdasads","name":"sdasdadd"} - reg - post
+http://localhost:4200/api/auth/login {"email":"test@mail.ru","password":"asdasads"} - log - post
+http://localhost:4200/api/auth/logout - logout - get
+http://localhost:4200/api/auth/access - relog - get
+http://localhost:4200/api/auth/activate/${link} - relog - get
+http://localhost:4200/api/auth/send - sendAgain
+http://localhost:4200/api/orders - {
+  "userId": 1,
+  "items": [
+    { "productId": 12, "quantity": 2 },
+    { "productId": 14, "quantity": 1 }
+  ]
+} - post
+http://localhost:4200/api/products/category/2
+http://localhost:4200/api/products/search/?term=суп&categoryId=2
