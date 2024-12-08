@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+body {
+    transition-property: background, opacity, transform, filter;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.menu-open{
+    overflow: hidden;
+}
+
+
+
+
